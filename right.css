@@ -1,0 +1,30 @@
+.rightpannel{
+    border: 2px solid wheat;
+    height: 40px;
+    width: 250px;
+    margin-top: 80px;
+    margin-left: 20px;
+    height: 50vh;
+}
+.rightpannel h3{
+    margin-top: 40px;
+    margin-left: 7px;
+}
+.rightpannel p{
+    margin-top: 20px;
+    margin-left: 5px;
+    color: blue;
+}
+.rightpannel span{
+    font-size: small;
+}
+.rightpannel p:hover{
+    cursor: pointer;
+
+}
+.add{
+    border: 2px solid black;
+    height: 200px;
+    width: 250px;
+    margin-top: 70px;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contaner2{
+    border: 2px solid white;
+    display: flex;
+    height: 300vh;
+    width:auto
+}
+.leftpannel{
+    background-color: white;
+    border: 2px solid wheat;
+    height: 90vh;
+    width: 40vh;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.backpik{
+    background-color: lightblue;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+    height: 100px;
+    width: auto;
+}
+.profilpik{
+   background-image: url(isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.avif);
+     background-size: cover; 
+    position: relative;
+    top: 45px;
+    height: 90px;
+    width: 90px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+.profilename{
+ 
+    height: 60px;
+    width: auto;
+    margin-top: 0.5px;
+
+}
+.profilename h1{
+  text-align: center;
+  margin-top: 40px;
+}
+.network{
+   
+    height: 70px;
+    
+}
+.network p,h5{
+    margin-top: 6px;
+    margin-left:5px;
+    
+       
+}
+.network h5{
+    font-size: 1rem;
+}
+.myitems{
+ 
+    height: 40px;
+    width: auto;   
+}
+.myitems p {
+    margin-top: 15px;
+    margin-left: 6px;
+    
+}
+.recent{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 1.2rem;
+}
+.java{
+    margin-top: 20px;
+    display: flex;
+    font-size: 1rem;
+}
+.java p{
+    margin-left: 15px;
+}
+.tags{
+    margin-top: 15px;
+    margin-left: 10px;
+    height: 90px;
+   width: 200px;
+
+}
+.tags p {
+    font-size: large;
+    margin-bottom: 15px;
+}
+
+.dis{
+    
+    height: 60px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.6;
+}

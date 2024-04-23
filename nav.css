@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.contaner{
+    border: 2px solid black
+    height: 100vh;
+
+}
+.navbar{
+    background-color: rgb(255,255,255);
+    display: flex;
+    position: fixed;
+    height: 10vh;
+    width: 200vh;
+    margin-top:2px;
+}
+.logosearch {
+   
+    display: flex;
+    height: 50px;
+    width: 100vh;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+.logo{
+   
+    height: 40px;
+    width: 50px;
+    margin-top: 3px;
+    margin-left: 4px;
+    
+}
+.logo i{
+    font-size: 2.8rem;
+    margin-left: 4px;
+}
+.logosearch input{
+    background-color: #edf3f8;
+    border-left: hidden;
+    border: hidden;
+    border-radius: 2%;
+    width: 200vh;
+    margin-left: 0.1px;
+    text-indent: 10px;
+    
+}
+.searchlogo  {
+    border: 2px solid  #edf3f8;
+    background-color: #edf3f8;
+    height: 49px;
+    width: 50px;
+    margin-top: 1px;
+    margin-left: 20px;
+
+}
+.searchlogo i{
+    margin-top: 14px;
+    margin-left: 20px;
+} 
+
+/*icon start here*/
+.icon{
+
+    display: flex;
+    height: 50px;
+    width: 70vh;
+    margin-top: 4px;
+    margin-left: 20vh;
+}
+.home{
+    margin-top: 10px;
+    margin-left: 5px;
+    border-bottom: 2px solid black;
+}
+.home i{
+    text-indent: 6px;
+}
+
+.mynetwork{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.mynetwork:hover{
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+.mynetwork i{
+    text-indent: 6px;
+}
+.jobs{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.jobs:hover{
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+.jobs i{
+    text-indent: 6px;
+}
+.message{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.message:hover{
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+.message i{
+    text-indent: 6px;
+}
+.notification{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.notification:hover{
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+.notification i{
+    text-indent: 6px;
+}
+.dropdown{
+    margin-top: 4px;
+    height: 40px;
+    width: 40px;
+    align-content: end;
+    text-align: center;
+}
